@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Multi-Select Dropdown</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<title> CRBORG</title>
+<h1>cyborg</h1>
+  <div class="dropdown-container">
+    <p1>Custom Multi-Select Dropdown</p1>
+    <div class="tags" id="tags"></div>
+    <input type="text" id="dropdown-input" placeholder="Select options..." oninput="filterOptions()" onclick="toggleDropdown()">
+    <div class="dropdown-menu" id="dropdown-menu">
+      <div class="dropdown-item" onclick="selectOption('Option 1')">Option 1</div>
+      <div class="dropdown-item" onclick="selectOption('Option 2')">Option 2</div>
+      <div class="dropdown-item" onclick="selectOption('Option 3')">Option 3</div>
+      <div class="dropdown-item" onclick="selectOption('Option 4')">Option 4 </div>
+      <div class="dropdown-item" onclick="selectOption('Option 5')">Option 5</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
